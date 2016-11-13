@@ -2492,6 +2492,10 @@
 			margin-bottom: 0;
 		}
 
+		#projects ul li a, #contact ul li a.callji{
+			color: #CD5C5C;
+		}
+
 	/*body.index #main {
 		padding-top: 5em;
 	}*/
