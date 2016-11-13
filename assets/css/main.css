@@ -2623,6 +2623,7 @@
 			#banner {
 				background-size: 15em, 15em, auto, cover;
 			}
+
 		/* Main */
 			#main {
 				background-size: 15em;
@@ -2695,13 +2696,7 @@
 			}
 			#banner .inner {
 				background: rgba(181, 181, 181, 0.9);
-				display: block;
-				padding: 0 1.5em;
-				color: #000;
-				display: inline-block;
-				opacity: 0;
-				padding: 2em 4.5em;
-				text-align: center;
+				padding: 1em 1em;
 			}
 
 		/* Wrapper */
@@ -3025,33 +3020,28 @@
 
 		/* Banner */
 
-			#banner {
-				background-size: 1em, 1em, auto, cover;
-				padding: 6em 0;
-			}
-
-				#banner .inner {
-					background: rgba(181, 181, 181, 0.9);
-					display: block;
-					padding: 0 1.5em;
-					color: #000;
-					display: inline-block;
-					opacity: 0;
-					padding: .5em 1em;
-					text-align: center;
+				#banner {
+					background-size: 10em, 10em, auto, cover;
+					padding: 6em 0;
 				}
 
-					#banner .inner header h2 {
-						font-size: 1.5em;
+					#banner .inner {
+						background: rgba(181, 181, 181, 0.9);
+						padding: 1em 1em;
 					}
 
-					#banner .inner p {
-						text-align: center;
-					}
+						#banner .inner header h2 {
+							font-size: 1.5em;
+						}
 
-					#banner .inner br {
-						display: none;
-					}
+						#banner .inner p {
+							text-align: center;
+						}
+
+						#banner .inner br {
+							display: none;
+						}
+
 
 		/* Main */
 
