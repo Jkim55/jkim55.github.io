@@ -1,12 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,900");
 
-/*
-	Twenty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -1551,7 +1545,7 @@
 /* Basic */
 
 	body {
-		background: #f3f6fa;
+		background: #f4f4ef;
 	}
 
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
@@ -1850,8 +1844,17 @@
 				top: -0.2em;
 			}
 
+			.icon.circle.fa-medium {
+				background: #02b875;
+				color: #fff;
+			}
+
+				.icon.circle.fa-medium:hover {
+					background: #37f2aa;
+				}
+
 			.icon.circle.fa-envelope {
-				background: #db6b67;
+				background: #d84727;
 				color: #fff;
 			}
 
@@ -1865,34 +1868,34 @@
 			}
 
 				.icon.circle.fa-linkedin:hover {
-					background: #2c97c9;
+					background: #36a5d8;
 				}
 
-			/*.icon.circle.fa-google-plus {
-				background: #db6b67;
-				color: #fff;
-			}
-
-				.icon.circle.fa-google-plus:hover {
-					background: #df7b77;
-				}*/
-
-			.icon.circle.fa-github {
+			.icon.circle.fa-githubBeige {
 				background: #dcad8b;
 				color: #fff;
 			}
 
-				.icon.circle.fa-github:hover {
+				.icon.circle.fa-githubBeige:hover {
 					background: #e1b89b;
 				}
 
-			.icon.circle.fa-dribbble {
-				background: #da83ae;
+			.icon.circle.fa-github {
+				background: #000;
 				color: #fff;
 			}
 
-				.icon.circle.fa-dribbble:hover {
-					background: #df93b8;
+				.icon.circle.fa-github:hover {
+					background: #6f7172;
+				}
+
+			.icon.circle.fa-facebook {
+				background: #7490c3;
+				color: #fff;
+			}
+
+				.icon.circle.fa-facebook:hover {
+					background: #8aa2cc;
 				}
 
 		.icon.featured {
@@ -2115,28 +2118,13 @@
 		}
 
 		.wrapper.style2 {
-			background-color: #83d3c9;
 			background-image: url("images/light-bl.svg"), url("images/light-br.svg");
 			background-position: bottom left, bottom right;
 			background-repeat: no-repeat, no-repeat;
 			background-size: 25em, 25em;
+			padding: 5em 0 8em 0;
 			color: #fff;
 		}
-
-			.wrapper.style2 .button:hover {
-				background: rgba(255, 255, 255, 0.15) !important;
-			}
-
-			.wrapper.style2 .button.special {
-				background: #fff;
-				border-color: #fff;
-				color: #83d3c9 !important;
-			}
-
-				.wrapper.style2 .button.special:hover {
-					border-color: inherit !important;
-					color: #fff !important;
-				}
 
 		.wrapper.style3 {
 			background: #fff;
@@ -2420,7 +2408,7 @@
 			color: #fff;
 			display: inline-block;
 			opacity: 0;
-			padding: 2em;
+			padding: 2em 4.5em;
 			text-align: center;
 		}
 
