@@ -1613,6 +1613,10 @@
 		font-size: 1.15em;
 		letter-spacing: 0.025em;
 	}
+	
+	h3.projects {
+		font-weight: 400;
+	}
 
 	sub {
 		font-size: 0.8em;
