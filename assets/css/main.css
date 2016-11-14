@@ -1590,6 +1590,18 @@
 		margin: 0 0 2em 0;
 	}
 
+	p.projects {
+		min-height: 10em;
+		margin-bottom:0;
+	}
+	p.techstack {
+		font-size: .8em;
+		color: #abb1b2;
+		padding: .8em;
+		min-height: 3.5em;
+		margin-bottom: 1em;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: inherit;
 		font-weight: 300;
@@ -1613,9 +1625,10 @@
 		font-size: 1.15em;
 		letter-spacing: 0.025em;
 	}
-	
+
 	h3.projects {
 		font-weight: 400;
+		margin-bottom:  0;
 	}
 
 	sub {
@@ -2004,9 +2017,11 @@
 
 	ul.links {
 		cursor: default;
+		margin-bottom:  1.5em;
 	}
 
 		ul.links li {
+			font-size: .8em;
 			display: inline-block;
 			padding-left: 0.5em;
 		}
