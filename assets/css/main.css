@@ -1803,9 +1803,18 @@
 			width: 100%;
 		}
 
+		.image.portrait {
+			display: block;
+		}
+			.image.portrait img{
+				width: 125px;
+				border-radius: 50%;
+			}
+
 		.image.fit {
 			display: block;
 		}
+
 
 			.image.fit img {
 				display: block;
